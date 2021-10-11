@@ -1,0 +1,17 @@
+[
+    {
+        "_id": "5d7129903280",
+        "user": "5d7930284823",
+        "name": "Denve Micheal",
+        "description": "Denver is a full stack developer. currently working in XYZ enterprise.",
+        "website": "https://devworkds.com",
+        "phone": "1111111111",
+        "email": "denver@email.com",
+        "address": "133 kakahuicded hudiew",
+        "careers": [ "Web development", "UI/UX", "Business" ],
+        "housing": true,
+        "jobAssistance": true,
+        "jobGaurantee": false,
+        "acceptGi": true
+    }
+]
