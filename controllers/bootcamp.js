@@ -60,7 +60,7 @@ exports.createBootcamp = async (req, res, next) => {
             data: bootcamp
         });
 
-    } catch (error) {
+    } catch (err) {
         // res.status(400).json({ success: false });
         next(err)
     }   
@@ -87,7 +87,7 @@ exports.updateBootcamp = async (req, res, next) => {
     
         res.status(200).json({ success: true, msg: `Update bootcamp with ${req.params.id} Id`, data: bootcamp });
         
-    } catch (error) {
+    } catch (err) {
         // res.status(400).json({ success: false });
         next(err)
     }
